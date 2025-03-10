@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/notes/ 
+Content-Type: application/json
+
+    {
+        "content": "i refuse to use postman",
+        "important": true
+    }
+
+###
+
+get http://localhost:3001/api/notes
+
+
+###
+
+:method :url :status :res[content-length] - :response-time ms
