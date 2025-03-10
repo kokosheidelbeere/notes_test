@@ -1,14 +1,14 @@
-POST http://localhost:3001/api/notes/ 
+POST https://notes-test-nz7r.onrender.com/api/notes
 Content-Type: application/json
 
     {
-        "content": "i refuse to use postman",
+        "content": "i sdafasdf to use postman",
         "important": true
     }
 
 ###
 
-get http://localhost:3001/api/notes
+get https://notes-test-nz7r.onrender.com/
 
 
 ###
